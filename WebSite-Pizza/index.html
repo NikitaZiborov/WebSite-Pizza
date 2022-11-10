@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Pizza</title>
+</head>
+<body>    
+    <header>
+        <div class="navbar">
+            <a href="#">HOME</a>
+            <a href="#menu">MENU</a>
+            <a href="#about">ABOUT</a>
+            <a href="#contact">CONTACT</a>
+        </div>
+    </header>
+
+    <section class="main-page">
+        <div class="mySlides fade">
+            <img src="./Photos/Photo_Pizza1.jpg" style="width: 100%;">
+        </div>
+        <div class="mySlides fade">
+            <img src="./Photos/Photo_Pizza2.jpg" style="width: 100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="./Photos/Photo_Pizza3.jpg" style="width: 100%">
+        </div>
+    </section>
+
+    <section id="menu">
+        <h1>THE MENU</h1>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <img id="img-margherita" src="./Photos/PhotosList_Pizza/Margherita.jpg" alt="Pizza Margherita" style="width:100%">
+                    <div id="modal-margherita" class="modal-margherita">
+                        <span class="close-margherita">&times;</span>
+                        <img class="modal-content" id="img01">
+                        <div id="caption-margherita"></div>
+                    </div>
+                    <div class="container">
+                        <h2>Margherita</h2>
+                        <p>Fresh tomatoes, fresh mozzarella, fresh basil , jarlsberg</p>
+                        <p>Price: $12.50</p>
+                        <div class="stars">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                        <p><button class="button">Buy margherita</button></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img id="img-formaggio" src="./Photos/PhotosList_Pizza/Formaggio.jpg" alt="Pizza Formaggio" style="width:100%;">
+                    <div id="modal-formaggio" class="modal-formaggio">
+                        <span class="close-formaggio">&times;</span>
+                        <img class="modal-content" id="img02">
+                        <div id="caption-formaggio"></div>
+                    </div>
+                    <div class="container">
+                        <h2>Formaggio</h2>
+                        <p>Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
+                        <p>Price: $15.50</p>
+                        <div class="stars">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <p><button class="button">Buy formaggio</button></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img id="img-chicken" src="./Photos/PhotosList_Pizza/Chicken.jpg" alt="Pizza Chicken" style="width:100%;">
+                    <div id="modal-chicken" class="modal-chicken">
+                        <span class="close-chicken">&times;</span>
+                        <img class="modal-content" id="img03">
+                        <div id="caption-chicken"></div>
+                    </div>
+                    <div class="container">
+                        <h2>Chicken</h2>
+                        <p>Fresh tomatoes, mozzarella, chicken, onions , jarlsberg</p>
+                        <p>Price: $17.00</p>
+                        <div class="stars">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <p><button class="button">Buy chicken</button></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <img id="img-pineapple" src="./Photos/PhotosList_Pizza/Pineapple'o'clock.jpg" alt="Pizza Pineapple'o'clock" style="width:100%">
+                    <div id="modal-pineapple" class="modal-pineapple">
+                        <span class="close-pineapple">&times;</span>
+                        <img class="modal-content" id="img04">
+                        <div id="caption-pineapple"></div>
+                    </div>
+                    <div class="container">
+                        <h2>Pineapple'o'clock</h2>
+                        <p>Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</p>
+                        <p>Price: $16.50</p>
+                        <div class="stars">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                        <p><button class="button">Buy pineapple'o'clock</button></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img id="img-meat" src="./Photos/PhotosList_Pizza/Meat Town.jpg" alt="Pizza Meat Town" style="width:100%;">
+                    <div id="modal-meat" class="modal-meat">
+                        <span class="close-meat">&times;</span>
+                        <img class="modal-content" id="img05">
+                        <div id="caption-meat"></div>
+                    </div>
+                    <div class="container">
+                        <h2>Meat<span class="badge_hot">Hot!</h2>
+                        <p>Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p>
+                        <p>Price: $20.00</p>
+                        <div class="stars">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                        <p><button class="button">Buy meat town</button></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img id="img-parma" src="./Photos/PhotosList_Pizza/Parma.jpg" alt="Pizza Parma " style="width:100%;">
+                    <div id="modal-parma" class="modal-parma">
+                        <span class="close-parma">&times;</span>
+                        <img class="modal-content" id="img06">
+                        <div id="caption-parma"></div>
+                    </div>
+                    <div class="container">
+                        <h2>Parma<span class="badge_new">New</span></h2>
+                        <p>Fresh tomatoes, mozzarella, parma, bacon, fresh arugula , onions</p>
+                        <p>Price: $21.50</p>
+                        <div class="stars">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <p><button class="button">Buy parma</button></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-page">
+            <h1>About</h1>
+        </div>
+        <div class="time-line">
+            <div class="about-container left">
+                <div class="about-content">
+                    <h2>2022</h2>
+                    <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+                </div>
+            </div>
+            <div class="about-container right">
+                <div class="about-content">
+                    <h2>2021</h2>
+                    <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+                </div>
+            </div>
+            <div class="about-container left">
+                <div class="about-content">
+                    <h2>2020</h2>
+                    <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+              </div>
+            </div>
+            <div class="about-container right">
+                <div class="about-content">
+                    <h2>2019</h2>
+                    <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+              </div>
+            </div>
+            <div class="about-container left">
+                <div class="about-content">
+                    <h2>2018</h2>
+                    <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+              </div>
+            </div>
+            <div class="about-container right">
+                <div class="about-content">
+                    <h2>2017</h2>
+                    <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+                </div>
+            </div>
+          </div>
+    </section>
+
+    <section class="section-counter">
+        <div class="section-counter-row">
+            <div class="section-counter-column">
+                <div class="section-counter-card">
+                    <p><i class="fa fa-user"></i></p>
+                    <h3>10+</h3>
+                    <p>Partners</p>
+                </div>
+            </div>
+            <div class="section-counter-column">
+                <div class="section-counter-card">
+                    <p><i class="fa fa-smile-o"></i></p>
+                    <h3>10000+</h3>
+                    <p>Happy Clients</p>
+                </div>
+            </div>
+            <div class="section-counter-column">
+                <div class="section-counter-card">
+                    <p><i class="fa fa-coffee"></i></p>
+                    <h3>100+</h3>
+                    <p>Meetings</p>
+                </div>
+            </div>
+            <div class="section-counter-column">
+                <div class="section-counter-card">
+                    <p><i class="fa fa-map-marker"></i></p>
+                    <h3>25+</h3>
+                    <p>Locations</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container-contact">
+            <div style="text-align: center;">
+                <h2>Contact</h2>
+            </div>
+            <div class="contact-row">
+                <div class="contact-column">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.5126019909035!2d30.52290878494273!3d50.450178598699175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce505f2c2b6f%3A0x3c708bc302925049!2sGlobus%20Mall!5e0!3m2!1sen!2sua!4v1667937156185!5m2!1sen!2sua" height="480" style="width:100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="contact-column">
+                    <form action="/action_page.php">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="firstname" placeholder="Your name...">
+
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="lastname" placeholder="Your last name...">
+
+                        <label for="people">How many people</label>
+                        <input type="number" id="people" name="people" placeholder="Number of people ...">
+
+                        <label for="date">Order time</label>
+                        <input type="datetime-local" id="date" name="date">
+
+                        <label for="subject">Subject</label>
+                        <textarea type="text" id="subject" name="subject" placeholder="Message \ Special requirements..." style="height: 100px;"></textarea>
+                        
+                        <input type="submit" value="Send Message">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <h3>Thin crust pizza</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium in illo fuga corrupti? Sapiente accusamus earum ut labore incidunt iure odio sunt? Autem corporis et maxime, id eos officiis inventore.</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-telegram"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            </ul>
+            <div class="footer-bottom">
+                <p>Crust Pizza &copy;2022 <a href="#">Thin crust pizza</a></p>
+                <div class="footer-menu">
+                    <ul class="f-menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scrips.js"></script>
+</body>
+</html>
